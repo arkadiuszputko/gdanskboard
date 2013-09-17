@@ -1,0 +1,6 @@
+<ul>
+    <li ng-repeat="venue in venues" style="background: url('{{venue.venue.photos.groups[0].items[0].url}}') no-repeat center center">
+        <h1>{{venue.venue.name}}</h1>
+        <p>{{venue.tips[0].text}}
+    </li>
+</ul>
